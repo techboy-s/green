@@ -1,0 +1,12 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 333px;
+  height: 377px;
+}
+
+
+

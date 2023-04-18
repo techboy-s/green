@@ -1,0 +1,101 @@
+.carbonFootprint,
+.tCo2e {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+}
+.tCo2e {
+  font-size: var(--text-26px-semibold-size);
+  line-height: 40px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 194px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icontrendUp,
+.indicator {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.indicator {
+  border-radius: var(--br-81xl);
+  background-color: var(--teal-500);
+  width: 8px;
+  height: 8px;
+}
+.icontrendUp {
+  width: 14px;
+  height: 14px;
+}
+.hello {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.badge,
+.info {
+  position: absolute;
+  left: 0;
+}
+.badge {
+  top: 123px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-lightcyan);
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--text-12px-semibold-size);
+  color: var(--teal-500);
+}
+.info {
+  top: 192px;
+  width: 222px;
+}
+.content {
+  align-self: stretch;
+  position: relative;
+  height: 214px;
+  flex-shrink: 0;
+}
+.metricCards {
+  text-decoration: none;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.06);
+  width: 262px;
+  height: 184px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-16px-regular-size);
+  color: var(--text-blue);
+  font-family: var(--text-12px-semibold);
+}

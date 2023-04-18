@@ -1,0 +1,121 @@
+.metrics {
+  text-decoration: none;
+  width: 1131px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.bodyChild {
+  border: 0;
+  width: 261px;
+  height: 184px;
+  flex-shrink: 0;
+}
+.body {
+  position: absolute;
+  top: 0;
+  left: 232px;
+  width: 1208px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.groupChild {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 9px;
+  height: 9px;
+}
+.div,
+.spinning {
+  position: absolute;
+  top: 0;
+  line-height: 20px;
+}
+.spinning {
+  left: 15px;
+  font-weight: 500;
+}
+.div {
+  left: 166px;
+  font-weight: 600;
+}
+.ellipseGroup,
+.ellipseParent {
+  position: absolute;
+  left: 0;
+  height: 20px;
+}
+.ellipseParent {
+  top: 0;
+  width: 192px;
+}
+.ellipseGroup {
+  top: 28px;
+  width: 190px;
+}
+.ellipseContainer {
+  position: absolute;
+  top: 56px;
+  width: 191px;
+}
+.ellipseContainer,
+.groupDiv {
+  left: 0;
+  height: 20px;
+}
+.groupDiv,
+.groupParent {
+  position: absolute;
+}
+.groupDiv {
+  top: 84px;
+  width: 192px;
+}
+.groupParent {
+  width: 192px;
+  top: 262px;
+  left: 70px;
+  height: 104px;
+}
+.title {
+  position: absolute;
+  top: 19px;
+  left: 51px;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+}
+.groupIcon,
+.rectangleParent {
+  position: absolute;
+  top: 59px;
+  left: 77px;
+  width: 179px;
+  height: 179px;
+}
+.rectangleParent {
+  text-decoration: none;
+  top: 303px;
+  left: 1075px;
+  width: 333px;
+  height: 377px;
+  color: inherit;
+}
+.dashboard {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1088px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-12px-semibold-size);
+  color: var(--color-gray-200);
+  font-family: var(--text-12px-semibold);
+}
